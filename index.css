@@ -1,0 +1,25 @@
+body {
+  margin: 30px;
+}
+
+div.clock {
+  padding: 50px;
+  width: 800px;
+  height: 150px;
+  border: 2px solid black;
+  font-family: 'Raleway', serif;
+  font-size: 72px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: yellow;
+}
+
+div.clock h1 {
+  font-weight: bold;
+}
+
+div.clock div {
+  display: flex;
+  justify-content: space-between;
+}
